@@ -14,7 +14,7 @@ const start = () => {
         {
             type: "list",
             name: "options",
-            message: "Please select an option?",
+            message: "Please select an option from below.",
             choices: [
                 {
                     name: "Check all employees",
