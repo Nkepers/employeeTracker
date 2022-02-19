@@ -97,7 +97,7 @@ const checkDepartments = () => {
             console.log(table);
             start();
         } else {
-            console.log("YOU MESSED UP DEPARTMENT", err);
+            console.log("Error with Departments!", err);
         }
     });
 };
@@ -113,7 +113,7 @@ const checkRoles = () => {
             console.log(table);
             start();
         } else {
-            console.log("Incorrect Roles!", err);
+            console.log("Error with Roles!", err);
         }
     });
 };
@@ -141,7 +141,7 @@ const checkEmployees = () => {
             console.log(table);
             start();
         } else {
-            console.log("YOU MESSED UP EMPLOYEE", err);
+            console.log("Error with Employee!", err);
         }
     });
 };
@@ -284,7 +284,7 @@ const updateEmployeeRole = () => {
                         console.log(answers.role);
                         console.log("employeeId", employeeId)
                         db.updateRole(role, employeeId)
-                            .then(() => console.log("Employee roll updated"))
+                            .then(() => console.log("Employee roll has been updated"))
                             .then(() => start());
 
                     })
