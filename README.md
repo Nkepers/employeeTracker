@@ -14,8 +14,7 @@ Clone the repo, then do "npm install (or npm i)". Change your MySql password in 
 
 ## Usage
 This is what it will look like on your device. 
-[Screencastify]()
-![Employee Tracker]()
+[Screencastify](https://drive.google.com/file/d/1MnSjHlqasoqbmjIv1YkagvhynV2UxMEB/view)
 
 ## Contributing
 Nicholas Kepers (with help from Jennifer Lucas and Spencer Creer (tutor))
